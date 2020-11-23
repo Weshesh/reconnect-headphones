@@ -22,6 +22,6 @@ echo "                                              "
 echo ""
 read -n 1 -s -r -p "Vajuta suvalist klahvi alustamiseks."
 echo ""
-
+blutoothd -ls| grep "jcb"
 echo ""
 read -n 1 -s -r -p "Vajuta suvalist klahvi lõpetamiseks."
